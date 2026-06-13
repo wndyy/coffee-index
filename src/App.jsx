@@ -274,7 +274,6 @@ const styles = {
     background: 'rgba(255, 255, 255, 0.85)',
     backdropFilter: 'blur(20px)',
     WebkitBackdropFilter: 'blur(20px)',
-    boxShadow: '0 8px 32px rgba(90, 122, 149, 0.18)',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
