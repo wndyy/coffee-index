@@ -217,7 +217,14 @@ function App() {
       {/* Floating average price circles on the right */}
       <div style={styles.avgWrapper}>
         <div style={styles.avgCircle}>
-          <div style={styles.avgIcon}>🍵</div>
+          <div style={styles.avgIcon}>  <svg viewBox="0 0 110 120" width="60" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 25 50 L 30 95 Q 30 100 35 100 L 65 100 Q 70 100 70 95 L 75 50 Z"
+          fill="#F5E6D3" stroke="#8B6F47" stroke-width="2.5" stroke-linejoin="round"/>
+    <ellipse cx="50" cy="50" rx="25" ry="5" fill="#FFFFFF" stroke="#8B6F47" stroke-width="2.5"/>
+    <ellipse cx="50" cy="50" rx="21" ry="3.5" fill="#A8C97F"/>
+    <path d="M 75 60 Q 88 60 88 72 Q 88 84 75 84"
+          fill="none" stroke="#8B6F47" stroke-width="2.5" stroke-linecap="round"/>
+  </svg></div>
           <div style={styles.avgLabel}>matcha</div>
           <div style={styles.avgValue}>
             {avgMatcha != null ? `$${avgMatcha.toFixed(2)}` : '—'}
