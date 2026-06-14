@@ -231,9 +231,6 @@ function App() {
           fill="#C89070" stroke="#5C3A1E" stroke-width="2" stroke-linejoin="round"/>
     <ellipse cx="50" cy="50" rx="25" ry="5" fill="#3D2817" stroke="#5C3A1E" stroke-width="2.5"/>
     <ellipse cx="50" cy="50" rx="21" ry="3.5" fill="#4A2C18"/>
-    <circle cx="80" cy="25" r="22" fill="#FFD4DC" stroke="#E89BAB" stroke-width="2"/>
-    <text x="80" y="25" font-family="Georgia, serif" font-size="11" font-weight="600"
-          fill="#8B4A5C" text-anchor="middle" dominant-baseline="central">${price}</text>
   </svg></div>
           <div style={styles.avgLabel}>coffee</div>
           <div style={styles.avgValue}>
