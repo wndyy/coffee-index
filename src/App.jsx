@@ -224,7 +224,17 @@ function App() {
           </div>
         </div>
         <div style={styles.avgCircle}>
-          <div style={styles.avgIcon}>☕</div>
+          <div style={styles.avgIcon}>  <svg viewBox="0 0 110 120" width="60" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 25 50 L 30 95 Q 30 100 35 100 L 65 100 Q 70 100 70 95 L 75 50 Z"
+          fill="#FFFFFF" stroke="#5C3A1E" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M 28 70 L 72 70 L 70 82 L 30 82 Z"
+          fill="#C89070" stroke="#5C3A1E" stroke-width="2" stroke-linejoin="round"/>
+    <ellipse cx="50" cy="50" rx="25" ry="5" fill="#3D2817" stroke="#5C3A1E" stroke-width="2.5"/>
+    <ellipse cx="50" cy="50" rx="21" ry="3.5" fill="#4A2C18"/>
+    <circle cx="80" cy="25" r="22" fill="#FFD4DC" stroke="#E89BAB" stroke-width="2"/>
+    <text x="80" y="25" font-family="Georgia, serif" font-size="11" font-weight="600"
+          fill="#8B4A5C" text-anchor="middle" dominant-baseline="central">${price}</text>
+  </svg></div>
           <div style={styles.avgLabel}>coffee</div>
           <div style={styles.avgValue}>
             {avgCoffee != null ? `$${avgCoffee.toFixed(2)}` : '—'}
