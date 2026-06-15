@@ -173,6 +173,7 @@ function App() {
         // Bridge casings
         'bridge-motorway-casing': '#8BA5C1',
         'bridge-trunk-casing': '#8BA5C1',
+        'bridge-trunk-primary-casing': '#8BA5C1',
         'bridge-primary-casing': '#8BA5C1',
         'bridge-secondary-tertiary-casing': '#8BA5C1',
         'bridge-link-casing': '#8BA5C1',
@@ -181,6 +182,7 @@ function App() {
         // Bridge fills
         'bridge-motorway': '#D8E0E7',
         'bridge-trunk': '#D8E0E7',
+        'bridge-trunk-primary': '#D8E0E7',
         'bridge-primary': '#D8E0E7',
         'bridge-secondary-tertiary': '#D8E0E7',
         'bridge-link': '#D8E0E7',
