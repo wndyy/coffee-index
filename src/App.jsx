@@ -168,7 +168,37 @@ function App() {
         'highway-trunk-casing':'#8BA5C1',
         'highway-primary-casing':'#8BA5C1',
         'highway-secondary-tertiary-casing':'#8BA5C1',
-        'highway-minor-casing':'#D8E0E7'
+        'highway-minor-casing':'#D8E0E7',
+
+        // Bridge casings
+        'bridge-motorway-casing': '#8BA5C1',
+        'bridge-trunk-casing': '#8BA5C1',
+        'bridge-primary-casing': '#8BA5C1',
+        'bridge-secondary-tertiary-casing': '#8BA5C1',
+        'bridge-link-casing': '#8BA5C1',
+        'bridge-motorway-link-casing': '#8BA5C1',
+        
+        // Bridge fills
+        'bridge-motorway': '#D8E0E7',
+        'bridge-trunk': '#D8E0E7',
+        'bridge-primary': '#D8E0E7',
+        'bridge-secondary-tertiary': '#D8E0E7',
+        'bridge-link': '#D8E0E7',
+        'bridge-motorway-link': '#D8E0E7',
+        
+        // Tunnel casings
+        'tunnel-motorway-casing': '#8BA5C1',
+        'tunnel-trunk-primary-casing': '#8BA5C1',
+        'tunnel-secondary-tertiary-casing': '#8BA5C1',
+        'tunnel-link-casing': '#8BA5C1',
+        'tunnel-motorway-link-casing': '#8BA5C1',
+        
+        // Tunnel fills
+        'tunnel-motorway': '#D8E0E7',
+        'tunnel-trunk-primary': '#D8E0E7',
+        'tunnel-secondary-tertiary': '#D8E0E7',
+        'tunnel-link': '#D8E0E7',
+        'tunnel-motorway-link': '#D8E0E7',
       };
     
       Object.entries(roadColors).forEach(([layerId, color]) => {
