@@ -152,7 +152,19 @@ function App() {
       zoom: 14,
     });
 
-    mapRef.current.on('load', () => setMapReady(true));
+    mapRef.current.on('load', () => {
+      setMapReady(true);
+    
+      const roadColors = {
+        'highway-motorway': '#8BA5C1',
+        'highway-trunk': '#D8E0E7',
+        'highway-minor': '#D8E0E7'
+      };
+    
+      Object.entries(roadColors).forEach(([layerId, color]) => {
+        mapRef.current.setPaintProperty(layerId, 'line-color', color);
+      });
+    });
 
     return () => {
       mapRef.current?.remove();
