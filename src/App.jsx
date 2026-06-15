@@ -163,7 +163,12 @@ function App() {
         'highway-secondary-tertiary': '#D8E0E7',
         'highway-motorway-link': '#D8E0E7',
         'highway-link': '#8BA5C1',
-        'highway-path': '#D8E0E7'
+        'highway-path': '#D8E0E7',
+        'highway-motorway-casing':#8BA5C1,
+        'highway-trunk-casing':#8BA5C1,
+        'highway-primary-casing':#8BA5C1,
+        'highway-secondary-tertiary-casing'#8BA5C1,
+        'highway-minor-casing':'#D8E0E7'
       };
     
       Object.entries(roadColors).forEach(([layerId, color]) => {
