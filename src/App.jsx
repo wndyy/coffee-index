@@ -3555,7 +3555,7 @@ const styles = {
   },
   slider: {
     width: '100%',
-    accentColor: '#E89BAB',
+    accentColor: '#000000',
     cursor: 'pointer',
   },
   timelineCount: {
