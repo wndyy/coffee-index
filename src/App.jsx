@@ -201,6 +201,12 @@ function App() {
         'tunnel-secondary-tertiary': '#D8E0E7',
         'tunnel-link': '#D8E0E7',
         'tunnel-motorway-link': '#D8E0E7',
+
+        'building': '#CECFD3',
+        'building-top': '##E8E9ED',
+        
+        // Background "ground" color
+        'background': '#F8F7F7',
       };
     
       Object.entries(roadColors).forEach(([layerId, color]) => {
