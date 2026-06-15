@@ -97,7 +97,7 @@ const coffeeMarkerSVG = (price) => `
     <ellipse cx="50" cy="50" rx="25" ry="5" fill="#3D2817" stroke="#5C3A1E" stroke-width="2.5"/>
     <ellipse cx="50" cy="50" rx="21" ry="3.5" fill="#4A2C18"/>
     <circle cx="80" cy="25" r="22" fill="#FFD4DC" stroke="#E89BAB" stroke-width="2"/>
-    <text x="80" y="25" font-family="Georgia, serif" font-size="11" font-weight="600"
+    <text x="80" y="25" font-family="Work Sans, sans-serif" font-size="11" font-weight="600"
           fill="#8B4A5C" text-anchor="middle" dominant-baseline="central">${price}</text>
   </svg>
 `;
@@ -111,7 +111,7 @@ const matchaMarkerSVG = (price) => `
     <path d="M 75 60 Q 88 60 88 72 Q 88 84 75 84"
           fill="none" stroke="#8B6F47" stroke-width="2.5" stroke-linecap="round"/>
     <circle cx="80" cy="25" r="22" fill="#FFD4DC" stroke="#E89BAB" stroke-width="2"/>
-    <text x="80" y="25" font-family="Georgia, serif" font-size="11" font-weight="600"
+    <text x="80" y="25" font-family="Work Sans, sans-serif" font-size="11" font-weight="600"
           fill="#8B4A5C" text-anchor="middle" dominant-baseline="central">${price}</text>
   </svg>
 `;
@@ -292,7 +292,7 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
-    fontFamily: 'Georgia, serif',
+    fontFamily: 'Work Sans, sans-serif',
     color: '#5A7A95',
     border: '1px solid rgba(255, 255, 255, 0.6)',
   },
@@ -322,7 +322,7 @@ const styles = {
     borderRadius: '16px',
     padding: '16px 24px',
     boxShadow: '0 8px 32px rgba(90, 122, 149, 0.18)',
-    fontFamily: 'Georgia, serif',
+    fontFamily: 'Work Sans, sans-serif',
     color: '#5A7A95',
     border: '1px solid rgba(255, 255, 255, 0.6)',
     zIndex: 100,
