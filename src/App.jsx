@@ -3362,7 +3362,7 @@ function App() {
       container: mapContainer.current,
       style: mapStyle,
       center: [-123.100, 49.254],
-      zoom: 14,
+      zoom: 10,
     });
 
     mapRef.current.on('load', () => {
