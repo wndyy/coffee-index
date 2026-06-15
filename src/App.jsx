@@ -200,21 +200,13 @@ function App() {
         'tunnel-trunk-primary': '#D8E0E7',
         'tunnel-secondary-tertiary': '#D8E0E7',
         'tunnel-link': '#D8E0E7',
-        'tunnel-motorway-link': '#D8E0E7',
-
-        'building': '#CECFD3',
-        'building-top': '#E8E9ED',
+        'tunnel-motorway-link': '#D8E0E7'
       };
     
       Object.entries(roadColors).forEach(([layerId, color]) => {
         mapRef.current.setPaintProperty(layerId, 'line-color', color);
       });
     });
-
-    // Background is a special layer type
-    if (mapRef.getLayer('background')) {
-      mapRef.setPaintProperty('background', 'background-color', '#F8F7F7');
-    }
 
     return () => {
       mapRef.current?.remove();
