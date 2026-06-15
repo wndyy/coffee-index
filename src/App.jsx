@@ -3322,7 +3322,7 @@ const coffeeMarkerSVG = (price) => `
 
 const matchaMarkerSVG = (price) => `
   <svg viewBox="0 0 110 120" width="60" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 25 50 L 30 95 Q 30 100 35 100 L 65 100 Q 70 100 70 95 L 75 50 Z" stroke-width="2.5" stroke-linejoin="round" stroke="#0f2a0f" fill="#2e5c2e"></path><ellipse cx="50" cy="50" rx="25" ry="5" fill="#FFFFFF" stroke-width="2.5" stroke="#0f2a0f"></ellipse><ellipse cx="50" cy="50" rx="21" ry="3.5" fill="#5aaa5a"></ellipse><path d="M 75 60 Q 88 60 88 72 Q 88 84 75 84" fill="none" stroke-width="2.5" stroke-linecap="round" stroke="#0f2a0f">
+    <path d="M 25 50 L 30 95 Q 30 100 35 100 L 65 100 Q 70 100 70 95 L 75 50 Z" stroke-width="2.5" stroke-linejoin="round" stroke="#0f2a0f" fill="#2e5c2e"></path><ellipse cx="50" cy="50" rx="25" ry="5" fill="#FFFFFF" stroke-width="2.5" stroke="#0f2a0f"></ellipse><ellipse cx="50" cy="50" rx="21" ry="3.5" fill="#5aaa5a"></ellipse><path d="M 75 60 Q 88 60 88 72 Q 88 84 75 84" fill="none" stroke-width="2.5" stroke-linecap="round" stroke="#0f2a0f"></path>
     <text x="80" y="25" font-family="Work Sans, sans-serif" font-size="11" font-weight="600"
           fill="#8B4A5C" text-anchor="middle" dominant-baseline="central">${price}</text>
   </svg>
@@ -3432,7 +3432,7 @@ function App() {
       <div style={styles.avgWrapper}>
         <div style={styles.avgCircle}>
           <div style={{fontSize:'22px', marginBottom:'-10px', marginTop: '-25px'}}>  <svg viewBox="0 0 110 120" width="60" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 25 50 L 30 95 Q 30 100 35 100 L 65 100 Q 70 100 70 95 L 75 50 Z" stroke-width="2.5" stroke-linejoin="round" stroke="#0f2a0f" fill="#2e5c2e"></path><ellipse cx="50" cy="50" rx="25" ry="5" fill="#FFFFFF" stroke-width="2.5" stroke="#0f2a0f"></ellipse><ellipse cx="50" cy="50" rx="21" ry="3.5" fill="#5aaa5a"></ellipse><path d="M 75 60 Q 88 60 88 72 Q 88 84 75 84" fill="none" stroke-width="2.5" stroke-linecap="round" stroke="#0f2a0f">
+    <path d="M 25 50 L 30 95 Q 30 100 35 100 L 65 100 Q 70 100 70 95 L 75 50 Z" stroke-width="2.5" stroke-linejoin="round" stroke="#0f2a0f" fill="#2e5c2e"></path><ellipse cx="50" cy="50" rx="25" ry="5" fill="#FFFFFF" stroke-width="2.5" stroke="#0f2a0f"></ellipse><ellipse cx="50" cy="50" rx="21" ry="3.5" fill="#5aaa5a"></ellipse><path d="M 75 60 Q 88 60 88 72 Q 88 84 75 84" fill="none" stroke-width="2.5" stroke-linecap="round" stroke="#0f2a0f"></path>
   </svg></div>
           <div style={styles.avgLabel}>matcha</div>
           <div style={styles.avgValue}>
