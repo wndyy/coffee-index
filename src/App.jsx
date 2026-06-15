@@ -167,7 +167,7 @@ function App() {
         'highway-motorway-casing':'#8BA5C1',
         'highway-trunk-casing':'#8BA5C1',
         'highway-primary-casing':'#8BA5C1',
-        'highway-secondary-tertiary-casing''#8BA5C1',
+        'highway-secondary-tertiary-casing':'#8BA5C1',
         'highway-minor-casing':'#D8E0E7'
       };
     
