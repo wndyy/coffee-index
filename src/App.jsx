@@ -3503,7 +3503,7 @@ const styles = {
     alignItems: 'center',
     justifyContent: 'center',
     fontFamily: 'Work Sans, sans-serif',
-    color: '#5A7A95',
+    color: '#000000',
     border: '1px solid rgba(255, 255, 255, 0.6)',
   },
   avgIcon: { fontSize: '22px', marginBottom: '-10px' },
