@@ -203,16 +203,18 @@ function App() {
         'tunnel-motorway-link': '#D8E0E7',
 
         'building': '#CECFD3',
-        'building-top': '##E8E9ED',
-        
-        // Background "ground" color
-        'background': '#F8F7F7',
+        'building-top': '#E8E9ED',
       };
     
       Object.entries(roadColors).forEach(([layerId, color]) => {
         mapRef.current.setPaintProperty(layerId, 'line-color', color);
       });
     });
+
+    // Background is a special layer type
+    if (map.getLayer('background')) {
+      map.setPaintProperty('background', 'background-color', '#F8F7F7');
+    }
 
     return () => {
       mapRef.current?.remove();
