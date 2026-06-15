@@ -212,8 +212,8 @@ function App() {
     });
 
     // Background is a special layer type
-    if (map.getLayer('background')) {
-      map.setPaintProperty('background', 'background-color', '#F8F7F7');
+    if (mapRef.getLayer('background')) {
+      mapRef.setPaintProperty('background', 'background-color', '#F8F7F7');
     }
 
     return () => {
