@@ -181,9 +181,9 @@ function App() {
         
         // Bridge fills
         'bridge-motorway': '#D8E0E7',
-        'bridge-trunk': '#D8E0E7',
-        'bridge-trunk-primary': '#D8E0E7',
-        'bridge-primary': '#D8E0E7',
+        'bridge-trunk': '#8BA5C1',
+        'bridge-trunk-primary': '#8BA5C1',
+        'bridge-primary': '#8BA5C1',
         'bridge-secondary-tertiary': '#D8E0E7',
         'bridge-link': '#D8E0E7',
         'bridge-motorway-link': '#D8E0E7',
