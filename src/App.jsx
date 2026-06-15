@@ -3517,7 +3517,7 @@ const styles = {
   avgValue: {
     fontSize: '22px',
     fontWeight: 600,
-    color: '#8B4A5C',
+    color: '#000000',
     fontVariantNumeric: 'tabular-nums',
   },
   timelineBar: {
@@ -3551,7 +3551,7 @@ const styles = {
   timelineYear: {
     fontSize: '22px',
     fontWeight: 600,
-    color: '#8B4A5C',
+    color: '#000000',
   },
   slider: {
     width: '100%',
