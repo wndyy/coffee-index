@@ -159,7 +159,7 @@ function App() {
         'highway-motorway': '#8BA5C1',
         'highway-trunk': '#D8E0E7',
         'highway-minor': '#D8E0E7',
-        'highway-primary': '#D8E0E7',
+        'highway-primary': '#8BA5C1',
         'highway-secondary-tertiary': '#D8E0E7',
         'highway-motorway-link': '#D8E0E7',
         'highway-link': '#8BA5C1',
