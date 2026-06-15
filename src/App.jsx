@@ -3533,7 +3533,7 @@ const styles = {
     padding: '16px 24px',
     boxShadow: '0 8px 32px rgba(90, 122, 149, 0.18)',
     fontFamily: 'Work Sans, sans-serif',
-    color: '#5A7A95',
+    color: '#000000',
     border: '1px solid rgba(255, 255, 255, 0.6)',
     zIndex: 100,
   },
