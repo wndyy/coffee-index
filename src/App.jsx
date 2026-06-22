@@ -209,7 +209,7 @@ function App() {
   }, [year]);
 
   return (
-    <div style={{ position: 'relative', width: '100vw', height: '100vh', overflow: 'hidden' }}>
+    <div style={{ position: 'relative', width: '85vh', height: '75vh', overflow: 'hidden' }}>
       <div ref={mapContainer} style={{ position: 'absolute', inset: 0 }} />
 
       {/* Floating average price circles on the right */}
