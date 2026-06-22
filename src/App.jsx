@@ -2,7 +2,7 @@ import { useEffect, useRef, useState, useMemo } from 'react';
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
 import './App.css';
-import mapStyleJSON from './mapStyle.js';
+import mapStyle from './mapStyle.json';
 
 // ============================================================
 // Price data
